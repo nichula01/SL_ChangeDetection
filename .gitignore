@@ -1,0 +1,23 @@
+# environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# big data (do NOT commit)
+DATA/raw_geotiff/
+DATA/png_uncropped/
+DATA/png_cropped/
+DATA/full_dataset/
+RESULTS/
+
+# exports/logs
+*.tif
+*.tiff
+*.log
